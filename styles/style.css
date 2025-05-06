@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.habit-container{
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 200px;
+}
+
+
+
+
+  .navbar{
+   text-align: center;
+   justify-content: space-between;
+   align-items: center;
+   
+  }
+  .nav-lists{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 12px 25px;
+    padding-left: 0;
+  }
+  .nav-list{
+   text-decoration: none;
+   font-size: 1.1rem;
+   color: white;
+   
+  }
+  body{
+    max-width: 1440px;
+    margin: 50px auto;
+    background-color: rgba(17, 17, 17, 1);
+  }
+  .nav-title{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #E6533C;
+  }
+  #home{
+    padding: 8px 20px;
+    background-color: #E6533C;
+    border-radius: 46px;
+  
+    
+  }
+  .banner{
+    height: 580px;
+    background-image: url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 150px;
+  
+  }
+  .banner-titile{
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: white;
+
+  }
+
+  .allura-regular {
+    font-family: "Allura", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.5rem;
+  }
+  .banner-left{
+    
+    margin: 100px 500px 50px 150px;
+    padding: 0;
+    
+  }
+  .description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .box1{
+   margin-top: 100px;
+   margin-left: 170px;
+   text-align: start;
+    padding: 10px 24px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(20px);
+   border: none;
+  }
+  #videos{
+    font-size: 2.5rem;
+    font-weight: 900;
+    
+  }
+  .video-description{
+    font-size: 0.71rem;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .box2{
+    margin-top: 250px;
+    margin-right: 180px;
+    text-align: start;
+    padding: 10px 22px;
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(20px);
+   border: none;
+   }
+
+   #tutorial{
+    font-size: 1.5rem;
+    font-weight: 900;
+   }
+   .btn{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 45px;
+    border-radius: 45px;
+    background-color: #E6533C;
+    border: none;
+   }
+   .btn2{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 45px;
+    border-radius: 45px;
+    border: 2px solid white;
+    background-color: black;
+   }
+   .habits{
+    
+    text-align: center;
+    margin-bottom: 55px;
+    width: 0 auto;
+   }
+   .habit-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+   }
+   .habit-name{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+   }
+   .habit{
+    max-width: 230px;
+    text-align: center;
+    
+   }
+   .run-container{
+    align-items: center;
+    border-radius: 18px;
+    padding: 40px 55px;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 100px 190px;
+    background-color: rgba(34, 34, 34, 1);
+   }
+   .run{
+    max-width: 440px;
+  }
+   .circle{
+    border-radius: 50%;
+    margin-bottom: 20px;
+   }
+   .runing{
+    max-width: 370px;
+   }
+
+
+   /* Mobile Device */
+   @media screen and (max-width: 576px) {
+    .navbar, .banner-left{
+      flex-direction: column;
+    }
+    .habit-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 auto;
+    }
+    .container{
+      margin-top: 400px;
+      
+    }
+   }
